@@ -10,7 +10,33 @@ body {
     background-size: 300px, auto;
 }
 
+#main.game {
+    display: grid;
+    grid-template-columns: 30% auto;
+    padding: 20px;
+}
 
+.start-div {
+    display: grid;
+    justify-items: center;
+    align-content: center;
+    min-height: 800px;
+}
+
+.start-div>div {
+    width: 420px;
+    padding: 20px;
+    margin: 10px 0;
+    font-size: 40px;
+    background-color: #575A89;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.start-div>div:hover {
+    background-color: #6C63FF;
+    cursor: pointer;
+}
 
 path {
     fill: rgb(236, 236, 236);
@@ -35,12 +61,6 @@ path.true:hover {
 
 path.false:hover {
     fill: crimson;
-}
-
-.main {
-    display: grid;
-    grid-template-columns: 30% auto;
-    padding: 20px;
 }
 
 h1 {
